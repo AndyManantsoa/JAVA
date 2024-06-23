@@ -1,0 +1,5 @@
+1) WAP using class, to create a library management, where defined all property of library and define all the behaviors
+2) WAP to define class student and define all properties and behaviors of the student and display the data
+3) WAP to swap two numbers without taking third vaiable;
+4) find the grade of subject marks. and validate the marks entered by the user
+5) WAP to calculate the average currency value in the last years taken from user4;

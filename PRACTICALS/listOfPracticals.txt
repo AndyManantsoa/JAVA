@@ -1,0 +1,54 @@
+1. write a program to display Hello World message in console window.
+
+2. Write a program to perform arithmetic and bitwise operations in a single source program without object creation.
+
+3. Write a program to perform arithmetic and bitwise operations by creating individual methods and classes than create an object to execute the individual methods of each operation.
+
+4. Write a java program to display the employee details using Scanner class.
+
+5. Write a Java program that prints all real solutions to the quadratic equation ax2+bx+c = 0.
+    Read in a, b, c and use the quadratic formula. If the discriminate b2-4ac is negative,
+    display a message stating that there are no real solutions?
+
+6. The Fibonacci sequence is defined by the following rule. 
+    The first 2 values in the sequence are 1, 1. 
+    Every subsequent value is the sum of the 2 values preceding it. 
+    Write a Java program that uses both recursive and non- recursive functions to print the nth value of the Fibonacci sequence?
+
+7. Write a Java program that prompts the user for an integer and then prints out all the prime numbers up to that Integer?
+
+8. Write a Java program to multiply two given matrices?
+
+9. Write a Java program for sorting a given list of names in ascending order?
+
+10. Write a java program for Method overloading and Constructor overloading
+
+11. Write a java program to represent Abstract class with example.
+
+12. Write a program to implement multiple Inheritances.
+
+13. write program to demonstrate method overriding and super keyword.
+
+14. Write a java program to implement Interface using extends keyword.
+
+15. Write a java program to create inner classes.
+
+16. Write a java program to create user defined package.
+
+17. Write a Java program that displays the number of characters, lines and words in a text?
+
+18. Write a Java program that checks whether a given string is a palindrome or not. Ex: MADAM is a palindrome
+
+19. Write a Java program that reads a line of integers and then displays each integer and the sum of all integers. (Use StringTokenizer class)?
+
+20. Write a java program for creating single try block with multiple catch blocks.
+
+21. write a program for multiple try blocks and multiple catch blocks including finally.
+
+22. write a program to create user defined exception.
+
+23. Write a java program for producer and consumer problem using Threads.
+
+24. Write a program to create dynami array using ArrayList class and print the contents od the array object
+
+25. write a program to impliment add, search and remove operation on ArrayList object.
