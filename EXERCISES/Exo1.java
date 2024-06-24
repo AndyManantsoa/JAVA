@@ -5,15 +5,15 @@ import java.util.Scanner;
 
 public class Exo1{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         int year;
         System.out.println("Enter the number of years: ");
-        year = scanner.nextInt();
+        year = s.nextInt();
         float []rate = new float[year];
 
         for (int i = 0; i < year; i++) {
             System.out.println("Enter the rate number " + (i+1));
-            rate[i]=scanner.nextFloat();
+            rate[i]=s.nextFloat();
         }
 
         float total=0;
