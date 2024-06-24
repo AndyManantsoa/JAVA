@@ -3,4 +3,4 @@
 3) WAP to swap two numbers without taking third vaiable;
 4) find the grade of subject marks. and validate the marks entered by the user
 5) WAP to calculate the average currency value in the last years taken from user4;
-6)as a software programmer, you need to design part of the application that manages the employeee compensation benefits
+6) As a software programmer, you need to design part of the application that manages the employeee compensation benefits
