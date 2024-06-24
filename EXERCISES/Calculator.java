@@ -12,7 +12,7 @@
 
  import java.util.Scanner;
 
- public class P3 {
+ public class Calculator {
      public void Add(float a, float b){
          System.out.println(a +" + " +b +" = "+ (a+b));
      }
@@ -43,7 +43,7 @@
  
      public static void main(String[] args) {
          Scanner s = new Scanner(System.in);
-         P3 calc= new P3();
+         Calculator calc= new Calculator();
          int a,b;
          System.out.println("Enter The operations you want to perform");
          System.out.println("Press 1 for Addition");
@@ -82,15 +82,12 @@
                 a=s.nextInt();
                 System.out.println("Enter the value of b: ");
                 b=s.nextInt();
-                while(true){
-                    
-                    if(!(b>0)){
-                        break;
-                    }else{
+                
+                while(b==0){
                         System.out.println("Enter correct values " );
-                    }
-                    calc.Div(a,b);
+                        b=s.nextInt();
                 }
+                        calc.Div(a,b);
                 break;
                 
             case 4:
