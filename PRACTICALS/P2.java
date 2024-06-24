@@ -1,6 +1,4 @@
 //Write a program to perform arithmetic and bitwise operations in a single source program without object creation.
-//Write a program to perform arithmetic and bitwise operations by creating individual methods and classes
-//then create an object to execute the individual methods of each operation.
 
 
 /*
@@ -44,7 +42,6 @@
  
      public static void main(String[] args) {
          Scanner s = new Scanner(System.in);
-         P2 calc= new P2();
          int a,b;
 
         a = s.nextInt();
@@ -57,6 +54,7 @@
     Add(a,b);
     Mul(a,b);
     Sub(a,b);
+    Div(a,b);
     And(a,b);
     Or(a,b);
     Not(a,b);
