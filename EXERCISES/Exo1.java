@@ -1,4 +1,3 @@
-// package EXERCISES;
 //WAP to calculate the average currency value in the last years taken from user4;
 
 import java.util.Scanner;

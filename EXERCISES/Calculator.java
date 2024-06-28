@@ -58,9 +58,7 @@
         
          int c=s.nextInt();
 
-         
-
-        switch (c) {
+         switch (c) {
             case 1:
                 System.out.println("Enter the value of a: ");
                 a=s.nextInt();
