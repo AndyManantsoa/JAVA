@@ -12,4 +12,15 @@ ARRAY:
 
 -> random acces: we can get the data which is located in the index;
 
--> Drawbacks of an array
+-> Drawbacks of an array:
+    fixed size so it cannot be changed once declared. size cannot grow dynamicaly
+
+-> Types of array:
+1) single dimensional array:
+int []arrayName = new int[5];
+2) multi dimensional array:
+int [][]arrayName = new int[5][5];
+3) jagged array
+
+
+
