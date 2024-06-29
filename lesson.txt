@@ -1,0 +1,13 @@
+ARRAY:
+
+->Array is a container to store data;
+
+->Initialization: 
+1) int []arrayName = {};
+2) int []arrayName = new dataType[size]; //object
+
+-> .length is an in built function to find the size of an array.
+
+-> advantage of array: optimization of code;
+
+-> random acces: we can get the data which is located in the index;
