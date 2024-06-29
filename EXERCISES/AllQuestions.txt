@@ -5,4 +5,5 @@
 5) WAP to calculate the average currency value in the last years taken from user4;
 6) As a software programmer, you need to design part of the application that manages the employee compensation benefits
 7) To implement bubbleSort in java;
+8) WAP to take size of an array from user and also the elements. filter the odd number from the array.
 

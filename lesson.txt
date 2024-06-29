@@ -18,9 +18,10 @@ ARRAY:
 -> Types of array:
 1) single dimensional array:
 int []arrayName = new int[5];
-2) multi dimensional array:
-int [][]arrayName = new int[5][5];
+2) multi dimensional array://row and collumn same
+int [][]arrayName = new int[row][collumn];
 3) jagged array
+int [][]arrayName = new int[5][]; //array of array
 
 
 
