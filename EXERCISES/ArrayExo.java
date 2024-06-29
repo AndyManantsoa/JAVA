@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ArrayExo{
 
     public void filterOdd(int []arr){
-        for(int i=0;i<arr.length ;i++){
+        for(int i=0;i<arr.length-1;i++){
             if(!(arr[i]%2==0)){
                 System.out.print(arr[i] +" ");
             }
@@ -17,9 +17,11 @@ public class ArrayExo{
         int[] arr = new int[size];
 
         System.out.println("Enter the elements of the array: ");
-        for(int i = 0; i < size-1; i++){
+        for(int i = 0; i < size; i++){
             arr[i] = sc.nextInt();
         }
+
+        System.out.println("The answer: ");
 
         ArrayExo arrayExo = new ArrayExo();
         arrayExo.filterOdd(arr);
