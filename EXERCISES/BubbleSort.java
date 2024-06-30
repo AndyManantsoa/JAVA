@@ -1,5 +1,3 @@
-//Exo 7: To implement bubbleSort in java;
-
 import java.util.Scanner;
 
 public class BubbleSort{

@@ -1,6 +1,6 @@
 public class LinearSearch{
-    
-}
+
+
 public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
 
@@ -12,13 +12,14 @@ public static void main(String[] args){
     for(int i=0;i<n;i++){
         arr[i] = sc.nextInt();
         }
-
-    BubbleSort bubbleSort = new BubbleSort();
-
-    bubbleSort.bubbleSort(arr);
-
-    System.out.println("Sorted array is");
-    for(int i=0;i<n;i++){
-        System.out.print(arr[i]+" ");
+        System.out.println("Enter the element to be searched: ");
+        int x = sc.nextInt();
+        int index = linearSearch(arr,x);
+        if(index == -1){
+            System.out.println("Element not found");
+        }else{
+        System.out.println("Element found at index: "+index);
         }
-}
+    }
+
+}      

@@ -36,19 +36,13 @@ public class PairSearch {
         System.out.println("Sorted array: ");
 
         PairSearch pairSearch = new PairSearch();
-        
         pairSearch.bubbleSort(arr);
-        
-        
-        for (int i = 0; i < n; i++) {
-            System.out.println(arr[i] + " ")
-        }
-        
-        System.out.print("The pairs are: ");
 
         for (int i = 0; i < n - 1; i++) {
-                if ((arr[i+1] + arr[i]) == x) {
+            for (int j = i + 1; j < n; j++) {
+                if ((arr[j] + arr[i]) == x) {
                     System.out.println("(" + arr[i] + " " + arr[j] + ") & (" + arr[i] + " " + arr[j] + ")");
+                }
             }
         }
     }
