@@ -1,0 +1,47 @@
+Create a class called "Book" with the following attributes:
+title (String)
+author (String)
+numberOfPages (int)
+Write a program that:
+* Defines the Book class with the mentioned attributes.
+* Creates two objects (instances) of the Book class with different book information.
+* Prints the details of each book object (title, author, number of pages) using appropriate methods or by accessing the attributes directly.
+
+Create a class called "Calculator" with the following methods:
+add(int a, int b) - This method takes two integers and returns their sum.
+subtract(int a, int b) - This method takes two integers and returns their difference.
+Write a program that:
+* Defines the Calculator class with the mentioned methods.
+* Creates an object of the Calculator class.
+* Calls the add and subtract methods with different numbers and prints the results.
+
+Create a class called "Student" with the following attributes:
+name (String)
+grade (char)
+Write a program that:
+* Defines the Student class with the mentioned attributes.
+* Creates two objects of the Student class with different student information (name and grade).
+* Add a method to the Student class called displayDetails that prints the student's name and grade.
+* Calls the displayDetails method on each student object.
+
+Create a class called "Fan" with the following attributes:
+speed (int) - This can be a value from 1 (slow) to 3 (fast)
+on (boolean) - Indicates whether the fan is on or off
+Write a program that:
+* Defines the Fan class with the mentioned attributes.
+* Creates an object of the Fan class with initial values for speed and on state.
+* Add methods to the Fan class for:
+* turnOn - Sets the on attribute to true.
+* turnOff - Sets the on attribute to false.
+* increaseSpeed - Increases the speed by 1 (if the speed is already 3, it stays at 3).
+* decreaseSpeed - Decreases the speed by 1 (if the speed is already 1, it stays at 1).
+* Use the defined methods to change the fan's state (on/off) and speed.
+* Print the current state (on/off) and speed of the fan after each change.
+
+Create a class called "Circle" with the following attribute:
+radius (double)
+Write a program that:
+* Defines the Circle class with the mentioned attribute.
+* Add a method to the Circle class called calculateArea that calculates the area of the circle (pi * radius^2) and returns the result.
+* Create an object of the Circle class with a specific radius value.
+* Call the calculateArea method on the circle object and print the calculated area.
