@@ -21,19 +21,38 @@ public class Fan{
         this.on = on;
     }
 
-    public boolean turnOff(){
-        this.on = false;
+    public boolean turnOff(boolean on){
+        return on = false;
     }
 
-    public boolean turnOff(){
-        this.on = true;
+    public boolean turnOn(boolean on){
+        return on = true;
     }
 
-    public void increaseSpeed(){
+    public void increaseSpeed(boolean on, int speed){
+        if(speed >=0 && speed<3 ){
+            speed++;
+        }
+        else if(speed ==3){
+            speed=3;
+        }
+    }
+
+    public void decreaseSpeed(boolean on, int speed){
+        if(speed >0 && speed<=3 ){
+            speed--;
+        }else if(speed ==1){
+            speed=1;
+        }
+    }
+
+    public static void main(String[] args){
         
     }
 
 
 
+
 }
+
 
