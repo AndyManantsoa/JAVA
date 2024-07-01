@@ -7,7 +7,7 @@
 4. Write a java program to display the employee details using Scanner class.
 
 5. Write a Java program that prints all real solutions to the quadratic equation ax2+bx+c = 0.
-    Read in a, b, c and use the quadratic formula. If the discriminate b2-4ac is negative,
+    Read in a, b, c and use the quadratic formula. If the discriminate b^2-4ac is negative,
     display a message stating that there are no real solutions?
 
 6. The Fibonacci sequence is defined by the following rule. 
@@ -51,4 +51,4 @@
 
 24. Write a program to create dynami array using ArrayList class and print the contents od the array object
 
-25. write a program to impliment add, search and remove operation on ArrayList object.
+25. Write a program to impliment add, search and remove operation on ArrayList object.
