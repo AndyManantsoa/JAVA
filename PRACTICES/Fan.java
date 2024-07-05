@@ -21,38 +21,49 @@ public class Fan{
         this.on = on;
     }
 
-    public boolean turnOff(boolean on){
-        return on = false;
+    public void turnOn() {
+        this.on = true;
+        System.out.println("Fan turned on");
     }
 
-    public boolean turnOn(boolean on){
-        return on = true;
+    public void turnOff() {
+        this.on = false;
+        System.out.println("Fan turned off");
     }
 
-    public void increaseSpeed(boolean on, int speed){
-        if(speed >=0 && speed<3 ){
-            speed++;
-        }
-        else if(speed ==3){
-            speed=3;
+    public void increaseSpeed() {
+        if (this.speed < 3) {
+            this.speed++;
+            System.out.println("Speed increased to " + this.speed);
+        } else {
+            System.out.println("Speed is already at max=3");
         }
     }
 
-    public void decreaseSpeed(boolean on, int speed){
-        if(speed >0 && speed<=3 ){
-            speed--;
-        }else if(speed ==1){
-            speed=1;
+    public void decreaseSpeed() {
+        if (this.speed > 1) {
+            this.speed--;
+            System.out.println("Speed decreased to " + this.speed);
+        } else {
+            System.out.println("Speed is already at the minimum =1");
         }
+    }
+
+    public void printState() {
+        System.out.println("Fan is " + (this.on ? "on" : "off") + " with speed " + this.speed);
     }
 
     public static void main(String[] args){
-        
+        Fan fan = new Fan(1, false);
+
+        fan.turnOn();
+        fan.printState();
+        fan.increaseSpeed();
+        fan.printState();
+        fan.decreaseSpeed(); 
+        fan.printState();
+        fan.turnOff();
     }
-
-
-
-
 }
 
 
