@@ -1,4 +1,303 @@
+java is object oriented programing language
+
+BASIC SYNTAX:
+------------
+
+    public class ClassName
+    {
+        public static void main(String [] args)
+        {
+          // code
+        }
+    }
+
+    ex:
+    public class Hello
+    {
+        public static void main(String [] args)
+        {
+            // print
+            System.out.println("Hello World!!")
+        }
+    }
+
+    Rule: In case of java the file name and the class name should be
+          same:
+          How you will save the above class??
+          Hello.java
+
+
+
+
+    here public is access modifier
+    class is keyword
+    class is a user define data type:
+    Class first latter should be capital
+    Java follows the camel case
+    ex:
+        suppose there is a class named as
+        print book
+
+        Printbook----> class PrintBook
+
+
+    Steps for running a java program on notepad:
+    1> create a java file write the code
+    2> save the java file
+    3> Go the file location and open the cmd:
+    4> Compile the java code:
+        javac ClassName.java--> javac Hello.java
+        it is generating a another .class file from the resource file
+        Hello.java--------->  Hello.class
+        Note:
+            this class file contains the byte code which is executable for
+            all os.
+
+        Here javac is a inbuilt compiler given by jdk
+
+
+    5> Run the byte code file:
+        java ClassName--> java Hello
+
+
+VARIABLES:
+---------
+
+    It is a container/memory location name/reference which is used to store the data
+    into the memory
+    syntax:
+        dataType variableName=variableValue;
+        ex:
+        String name="Sita";
+        String lastName="Devi";
+        Note:  variableName should be always start with small latter
+
+
+DATA TYPES:
+----------
+
+    1> Primitive--> which is previously defined
+            ex: int,float,char,double,short,long,boolean
+
+    2> Non-Primitive--> it is defined by user
+            ex: Array, Class, String
+
+SCANNER:
+--------
+
+   It is a predefined class which is used to take the input from the user at runtime of program
+
+       Steps for use Scanner class:
+
+       1-> import th Scanner class
+        import java.util.Scanner;
+        import-> is a keyword used for import the class
+        java->   It is a Library(The collection of Packages)
+        util->   It is a Package(The collection of Classes)
+
+
+       2-> We have to create an object for the Scanner Class:
+
+            Syntax for creating an object:
+                ClassName Objectname=new ClassName();
+                Hello  h=new Hello();
+
+
+          Scanner abc=new Scanner(System.in);
+       3-> Take input:
+            int type of value:
+                int a=abc.nextInt();
+                float f=abc.nextFloat();
+                String name=abc.next()/ abc.nextLine();
+                double d=abc.nextDouble();
+
+SCANNER CLASS:
+-------------
+
+    A class which is used to take the input form the user
+    at the runtime. Scanner class is predefined
+
+steps for taking the input form user at the run time:
+    1-> we need to import the Scanner class:
+        import java.util.Scanner;
+        import-> it is  keyword for importing the modules or classes
+        java->   java is the library(The collection of Packages)
+        util->   util is package(The collection of Modules and classes)
+        Scanner->Scanner is class
+
+    2-> Create the object for the Scanner class:
+        syntax for creating the object in java:
+            -> ClassName objectName(variable/reference)=new ClassName();
+            ex: class Hello{
+                // class code
+
+                public void display()
+                {
+                    // method code
+                }
+            }
+            display()
+            Hello hello=new Hello();
+            hello.display()
+
+            Scanner class object:
+                Scanner scanner=new Scanner(System.in);
+
+    3-> Use the Scanner object for taking the input form user:
+            int a=scanner.nextInt();
+            float f= scanner.nextFloat();
+            double d= scanner.nextDouble();
+            String name=scanner.nextLine();
+            boolean value=scanner.nextBoolean();
+
+            etc.........
+
+            code example:
+
+
+OPERATOR:
+--------
+
+    This is used to perform the operation between two operands
+    ex:
+        a+b--> addition operator +
+        b/v->  division operator /
+
+    Types lo Operator:
+        1-> Arithmetic Operator:
+            It is used to perform the Mathematical Operations
+            +, - , / , * , %, ++,--
+
+        2-> Logical Operator:
+            It is used to perform the logic between two or more then two conditions:
+                Types of logical Operator:
+                    1> AND--->> &&
+                       In case of and if any condition is false then and will return
+                       false.
+                       ex:
+                       condition1     and(&&)       condition2------>> result
+                        true            &&              true            true
+                        false           &&              true            false
+                        true            &&              false           false
+                        false           &&              false           false
+
+                        NOTE: if the first condition is false  in that case && will not
+                              check the second condition
+
+                        12>13 && 13>14------>
+                        false    false------ false
+
+                        13<50 && 23<34----> true
+                        30>29 && 20<19-----> false
+                    2> OR--->>  ||
+                        If any ot one condition is true the or operator will return the
+                        true.
+                        ex:
+                           condition1     and(||)       condition2------>> result
+                            true            ||              true            true
+                            false           ||              true            true
+                            true            ||              false           true
+                            false           ||              false           false
+
+                        ex:
+                            13>14 || 23>12----->true
+                    3> NOT--->> !
+                        If the condition is returning true then not operator will convert
+                        into false and vice-versa
+                        ex:
+                         !true--->> false
+                         !false--->> true
+
+                         !(12>14)--->true
+                         !(12>10)---->false
+        3-> Relational Operator:
+            It is used to compare the operands and returns the result.
+            It always returns value in boolean ----> true/false
+            > -> greater then
+            < ->less then
+            >=->greater then and equal to
+            <=->less then and equal to
+            == -> equal to
+
+            ex:
+                12>14-->false
+                14<12->false
+                12==13->false
+                12==12->true
+        5-> Assignment Operator:
+            This is used to assign the value for a variable
+                = --> equal to
+                ex:
+                    int a=23;
+                    here a is storing 23
+        6-> Ternary Operator(condition? will execute if condition is true :will execute if condition is false):
+            condition?true part:false part
+            CONDITION?:
+            ex:
+            (12>13)?System.out.println("Given Condition is True"):System.out.println("Given Condition is False")
+            output:  Given Condition is false
+
+LOOPS:
+------
+
+    It is used to iterate through the same code again
+    and again till the condition is satisfied
+
+    Types of loop:
+        1-> for() loop:
+            Syntax of for loop:
+                for(initialization; condition; increment/decrement)
+                {
+                    // loop code
+                }
+                ->here initialization is to initialize the value for a
+                variable
+                ->condition-> according to the condition the loop will
+                  start execution once the condition will be false
+                  the loop will terminate.
+                  increment/decrement-> for changing the value of
+                  the used variable
+
+                ex:
+                    print 0-10 using for loop:
+                        public class LoopDemo
+                        {
+                            public static void main(String []args)
+                            {
+                                        1     2
+                                for(int i=0;i<=10;i++)   i=11
+                                {
+                                    System.out.println(i)   0,1,2...9,10
+                                }
+
+                                // rest of code
+                            }
+                            // input-- enter the starting range--23
+                            //enter the ending range--28
+                            // output: 23,25,27
+
+                        }
+
+                NOTES: in case of for loop we know the number of iterations
+                        that's why the for loop is also called as static loop
+        2-> while() loop:
+            syntax:
+                while(condition)
+                {
+                    //while loop code
+                }
+                ex:
+                    int i=0;
+                    while(i<=10)
+                    {
+                        System.out.println(i+ " ");
+                        i++;
+                    }
+
+        3-> do()-while() loop
+
 ARRAY:
+-----
 
 ->Array is a container to store data;
 
@@ -24,4 +323,6 @@ int [][]arrayName = new int[row][collumn];
 int [][]arrayName = new int[5][]; //array of array
 
 
-
+CONSTRUCTOR:
+------------
+It id a type of method
