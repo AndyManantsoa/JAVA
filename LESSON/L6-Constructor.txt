@@ -1,0 +1,19 @@
+CONSTRUCTOR:
+------------
+    It is a specific type of method in java which is used to create the instance of a class or initialize
+    the memory for instance variable.
+
+    Rule for define constructor :
+        -> It doesn't have any return type that's why it is called special.
+        -> It must have the same name as the class name.
+        -> It can have parameters or not.
+        -> It can get called implicitly when we are initialing the object/ creating the object for particular class.
+
+    Type of constructor:
+        -> Default constructor/non parametrized constructor.
+        -> Parameterized constructor.
+
+        we don't need to define default constructor explicitely due to it's defined implicitely by the java compiler 
+        after creating the class.
+        
+                

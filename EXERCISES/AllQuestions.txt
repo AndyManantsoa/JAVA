@@ -8,6 +8,7 @@
 8) To impliment linear search in java.
 9) WAP to take size of an array from user and also the elements. filter the odd number from the array.
 10) WAP to find All the pairs which has target sum according to the user;
+11) WAP to create a bike object of 2 different properties with default constructor
 
 
 

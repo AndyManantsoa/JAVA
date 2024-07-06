@@ -1,0 +1,71 @@
+SCANNER:
+--------
+
+   It is a predefined class which is used to take the input from the user at runtime of program
+
+       Steps for use Scanner class:
+
+       1-> import th Scanner class
+        import java.util.Scanner;
+        import-> is a keyword used for import the class
+        java->   It is a Library(The collection of Packages)
+        util->   It is a Package(The collection of Classes)
+
+
+       2-> We have to create an object for the Scanner Class:
+
+            Syntax for creating an object:
+                ClassName Objectname=new ClassName();
+                Hello  h=new Hello();
+
+
+          Scanner abc=new Scanner(System.in);
+       3-> Take input:
+            int type of value:
+                int a=abc.nextInt();
+                float f=abc.nextFloat();
+                String name=abc.next()/ abc.nextLine();
+                double d=abc.nextDouble();
+
+SCANNER CLASS:
+-------------
+
+    A class which is used to take the input form the user
+    at the runtime. Scanner class is predefined
+
+steps for taking the input form user at the run time:
+    1-> we need to import the Scanner class:
+        import java.util.Scanner;
+        import-> it is  keyword for importing the modules or classes
+        java->   java is the library(The collection of Packages)
+        util->   util is package(The collection of Modules and classes)
+        Scanner->Scanner is class
+
+    2-> Create the object for the Scanner class:
+        syntax for creating the object in java:
+            -> ClassName objectName(variable/reference)=new ClassName();
+            ex: class Hello{
+                // class code
+
+                public void display()
+                {
+                    // method code
+                }
+            }
+            display()
+            Hello hello=new Hello();
+            hello.display()
+
+            Scanner class object:
+                Scanner scanner=new Scanner(System.in);
+
+    3-> Use the Scanner object for taking the input form user:
+            int a=scanner.nextInt();
+            float f= scanner.nextFloat();
+            double d= scanner.nextDouble();
+            String name=scanner.nextLine();
+            boolean value=scanner.nextBoolean();
+
+            etc.........
+
+            code example:
