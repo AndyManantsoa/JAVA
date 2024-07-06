@@ -6,7 +6,7 @@ public class Bike {
     String name;
     String engineType;
 
-    Bike(){
+    public Bike(){
         System.out.println("Bike created");
     }
 
