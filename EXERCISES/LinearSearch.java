@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class LinearSearch{
 
+static void linearSearch(int []arr, int x){
 
+}
 public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
 
@@ -13,13 +17,8 @@ public static void main(String[] args){
         arr[i] = sc.nextInt();
         }
         System.out.println("Enter the element to be searched: ");
-        int x = sc.nextInt();
-        int index = linearSearch(arr,x);
-        if(index == -1){
-            System.out.println("Element not found");
-        }else{
-        System.out.println("Element found at index: "+index);
-        }
+        int x= sc.nextInt();
+        linearSearch(arr,x);
     }
 
 }      

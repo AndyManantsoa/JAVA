@@ -18,7 +18,7 @@ public class Bike {
     }
 
     public void display(){
-        System.out.println(b1.name+" "+b1.engineType+" "+ this.speed+"\n");
+        System.out.println(this.name+" "+this.engineType+" "+ this.speed+"\n");
 
     }
     public static void main(String[] args) {
