@@ -11,6 +11,8 @@
 
  import java.util.Scanner;
 
+ 
+
  public class P2 {
      static void Add(float a, float b){
          System.out.println(a +" + " +b +" = "+ (a+b));
