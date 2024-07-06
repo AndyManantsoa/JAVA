@@ -13,6 +13,8 @@ CONSTRUCTOR:
         -> Default constructor/non parametrized constructor.
         -> Parameterized constructor.
 
-        we don't need to define default constructor explicitely due to it's defined implicitely by the java compiler 
+        Default constructor: we don't need to define default constructor explicitely due to it's defined implicitely by the java compiler 
         after creating the class.
-        it is mainly used for initialize the properties value for instance variable.        
+        Parameterized constructor: it is mainly used for initialize the properties value for instance variable.
+
+        "This" keyword is 
