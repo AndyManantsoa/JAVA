@@ -1,3 +1,4 @@
+package PRACTICES1;
 // Create a class called "Fan" with the following attributes:
 // speed (int) - This can be a value from 1 (slow) to 3 (fast)
 // on (boolean) - Indicates whether the fan is on or off

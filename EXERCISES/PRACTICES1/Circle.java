@@ -1,3 +1,4 @@
+package PRACTICES1;
 // Create a class called "Circle" with the following attribute:
 // radius (double)
 // Write a program that:

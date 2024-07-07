@@ -1,3 +1,4 @@
+package PRACTICES1;
 // Create a class called "Book" with the following attributes:
 // title (String)
 // author (String)
