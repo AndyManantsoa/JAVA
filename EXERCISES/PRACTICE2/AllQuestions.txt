@@ -9,10 +9,22 @@
 
 4) Develop a class Employee with name, department, and salary as instance variables.
    Create constructors for full information and another with just name and department (assuming salary can be assigned later).
-   Implement a class Order with customerName, items (list of items), and totalPrice.
+
+5) Implement a class Order with customerName, items (list of items), and totalPrice.
    Write constructors for full information and another with just customerName (assuming items and total price can be initialized later).
-    Design a class Product with name, price, and quantity as instance variables. Create constructors with and without arguments (default constructor setting quantity to 0).
-Write a class Account (bank account) with accountNumber, balance, and ownerName as instance variables. Implement constructors for full information and another with just accountNumber (assuming initial balance and owner name can be set later).
-Develop a class Shape with an abstract method getArea(). Create subclasses Square and Circle inheriting from Shape and implementing getArea() specific to their shapes. Include constructors in each subclass for necessary data.
-Write a class Time with hour, minute, and second as instance variables. Create constructors for full information and another with just hours and minutes (assuming seconds can be set to 0).
-Design a class Address with street, city, state, and zipCode as instance variables. Implement constructors with and without arguments (default constructor setting optional values like city or state to empty strings).
+   
+6) Design a class Product with name, price, and quantity as instance variables.
+   Create constructors with and without arguments (default constructor setting quantity to 0).
+
+7) Write a class Account (bank account) with accountNumber, balance, and ownerName as instance variables.
+   Implement constructors for full information and another with just accountNumber (assuming initial balance and owner name can be set later).
+
+8) Develop a class Shape with an abstract method getArea().
+   Create subclasses Square and Circle inheriting from Shape and implementing getArea() specific to their shapes.
+   Include constructors in each subclass for necessary data.
+
+9) Write a class Time with hour, minute, and second as instance variables.
+   Create constructors for full information and another with just hours and minutes (assuming seconds can be set to 0).
+
+10) Design a class Address with street, city, state, and zipCode as instance variables.
+   Implement constructors with and without arguments (default constructor setting optional values like city or state to empty strings).
