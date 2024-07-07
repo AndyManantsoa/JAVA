@@ -1,0 +1,18 @@
+1) Create a class Car with instance variables for make, model, and year.
+   Write constructors with and without arguments (default constructor).
+
+2) Design a class Student with name, id, and gpa as instance variables.
+   Implement constructors for full information and another for just name and id (assuming GPA can be calculated later).
+
+3) Write a class Book with title, author, and pageCount.
+   Include a constructor that takes all three arguments and another with just title and author (assuming page count can be a default value).
+
+4) Develop a class Employee with name, department, and salary as instance variables.
+   Create constructors for full information and another with just name and department (assuming salary can be assigned later).
+   Implement a class Order with customerName, items (list of items), and totalPrice.
+   Write constructors for full information and another with just customerName (assuming items and total price can be initialized later).
+    Design a class Product with name, price, and quantity as instance variables. Create constructors with and without arguments (default constructor setting quantity to 0).
+Write a class Account (bank account) with accountNumber, balance, and ownerName as instance variables. Implement constructors for full information and another with just accountNumber (assuming initial balance and owner name can be set later).
+Develop a class Shape with an abstract method getArea(). Create subclasses Square and Circle inheriting from Shape and implementing getArea() specific to their shapes. Include constructors in each subclass for necessary data.
+Write a class Time with hour, minute, and second as instance variables. Create constructors for full information and another with just hours and minutes (assuming seconds can be set to 0).
+Design a class Address with street, city, state, and zipCode as instance variables. Implement constructors with and without arguments (default constructor setting optional values like city or state to empty strings).
