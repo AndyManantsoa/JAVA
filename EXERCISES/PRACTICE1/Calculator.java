@@ -1,4 +1,3 @@
-package PRACTICES1;
 // Create a class called "Calculator" with the following methods:
 // add(int a, int b) - This method takes two integers and returns their sum.
 // subtract(int a, int b) - This method takes two integers and returns their difference.

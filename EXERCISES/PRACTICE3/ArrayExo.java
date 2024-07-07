@@ -1,4 +1,3 @@
-package PRACTICE3;
 import java.util.Scanner;
 
 public class ArrayExo{

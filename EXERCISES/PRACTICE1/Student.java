@@ -1,4 +1,3 @@
-package PRACTICES1;
 // Create a class called "Student" with the following attributes:
 // name (String)
 // grade (char)

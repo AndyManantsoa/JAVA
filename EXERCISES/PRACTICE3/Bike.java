@@ -1,4 +1,3 @@
-package PRACTICE3;
 //11) WAP to create a bike object of 2 different properties with default constructor
 
 
