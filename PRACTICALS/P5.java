@@ -7,12 +7,15 @@ import java.util.Scanner;
 public class P5{
     public void findDiscriminant(double a,double b, double c){
         double discriminant = b*b - 4*a*c;
+        System.out.println("The discriminant is : "+discriminant);
             if (discriminant < 0){
                 System.out.println("There are no real solutions");
             }else if(discriminant >= 0){
                 System.out.println("The real solutions are: ");
-                double x1= ((-b)-Math.sqrt(discriminant))/(2*a);
-                double x2= ((-b)-Math.sqrt(discriminant))/(2*a);
+
+                    double x1= ((-b)-Math.sqrt(discriminant))/(2*a);
+                    double x2= ((-b)-Math.sqrt(discriminant))/(2*a);
+
                 System.out.println("  x1 = "+x1);
                 System.out.println("  x2 = "+x2);
             }
