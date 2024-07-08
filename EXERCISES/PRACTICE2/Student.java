@@ -11,6 +11,16 @@ public class Student{
     this.id= id;
     this.gpa= gpa;
   }
+  
+  public void display(){
+        System.out.println("Name : "+this.name+"\n"+
+                          "id : "+this.id+"\n"+
+                          "GPA : "+this.gpa+"\n\n");
+    }
+
+    public void main(String[] args){
+        Student s1 = new Student("Lambo", "Urus", 2019);
+        s1.display();
 
   
 }
