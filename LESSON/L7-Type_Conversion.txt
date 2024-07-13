@@ -1,0 +1,12 @@
+TYPE CONVERSION:
+----------------
+
+-> It is the automatic process of transforming a value from one data type to an other data type during the expression or assignment;
+
+    Types of type conversion:
+    1/ Widening conversion:
+        in this type of typecasing, conversion of data will be processed automaticaly or implicitly.
+        ex: int to long, float to double, short to int, byte to short
+            -> int a = 5;double b = a;
+
+    2/ Narrowing conersion: 
