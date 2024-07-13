@@ -26,6 +26,7 @@ Choose an options:
 		if vlidated
 			enter the updated details, name, email, phone
 			update the details:
+        
 3> delete an account
 	enter  the account number: 
 		312312
@@ -39,7 +40,8 @@ Choose an options:
 `		validate the entred account number:
 		if vlidated
 		DISPLAY ACCOUNT DETAILS  IN PRPER FORMAT
-5> view all account
+
+5> view all account:
 	DISPLAY ALL ACCOUNT IN FORMAT
 
 6> Choose Transaction:
@@ -53,7 +55,10 @@ Choose an options:
 
 use class and Encapsulations :
 	create an array for storing the accounts details: 
-	Generate A random Account number of 12 desigt there format shoud be bankname+ifsccode last 2 						digit+ some random number but make sure that d should 						not taken before number should be unique
+	Generate A random Account number of 12 desigt there format shoud be bankname+ifsccode last 2 						
+    digit+ some random number but make sure that d should 						
+    not taken before number should be unique
+
 	ifsc code and the branch name should be constant
 	
 	validate the account number for all operations perform all the operations on the basis of 
@@ -62,6 +67,8 @@ use class and Encapsulations :
 	make all the variable or the properties as private in the acount class
 	create the id of the account also
 	use some random id or uuid
+
+
 
 	
 template:

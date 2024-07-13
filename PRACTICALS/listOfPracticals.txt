@@ -49,6 +49,6 @@
 
 23. Write a java program for producer and consumer problem using Threads.
 
-24. Write a program to create dynami array using ArrayList class and print the contents od the array object
+24. Write a program to create dynamic array using ArrayList class and print the contents od the array object
 
 25. Write a program to impliment add, search and remove operation on ArrayList object.

@@ -106,10 +106,18 @@ public class Bank {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int choice= sc.nextInt();
+        int choice;
         Bank bank = new Bank("", "", 0, 0, "",0,"");
-
-        switch(choice){
+        while(true){
+            System.out.println("Welcome to MANAMIRA bank\n"+
+                "Enter your choice: \t"+
+                "1. Create account\t"+
+                "2. Delete account\t"+
+                "3. Display account\t"+
+                "4. Exit\n");
+                choice = sc.nextInt();
+            
+            switch(choice){
                 case 1:
                     bank.createAccount();
                     break;
@@ -131,5 +139,8 @@ public class Bank {
             }
 
         }
+        }
+
+        
     }
 
