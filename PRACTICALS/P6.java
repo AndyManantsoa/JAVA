@@ -10,29 +10,29 @@ public class P6 {
         }
     }
 
-    public int fiboNonRec(int n) {
-        if (n == 0) {
-            return 0;
-        }
-        int x = 0, y = 1;
+    public void fiboNonRec(int n) {
+        int x = 0, y = 1, sum = 0;
         
-        for (int i = 1; i <= n; i++) {
-            int sum = x + y;
+        System.out.print("Non Recursive: 0 1 ");
+        for (int i = 2; i <= n; i++) {
+            sum = x + y;
             x = y;
             y = sum;
+            System.out.print(sum +" ");
         }
-        return y;
-        
+        System.out.println("\nThe nth is: "+y);
+
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of series");
-
+        System.out.print("Enter the number of series: ");
         int n = sc.nextInt();
-
+        
         P6 fibo = new P6();
-        System.out.println("Non-recursive Fibonacci series:"+fibo.fiboNonRec(n - 1));
+        fibo.fiboNonRec(n);
+        System.out.println("\n");
+
         System.out.println("Recursive Fibonacci number: " + fibo.fibo(n));
     }
 }
