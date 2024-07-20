@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 
+
 public class Bank {
     int maxCustomer=100;
     Bank [] accounts = new Bank[maxCustomer];

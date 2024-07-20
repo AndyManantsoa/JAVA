@@ -1,5 +1,6 @@
-TYPE CONVERSION:
-----------------
++-----------------+
+| TYPE CONVERSION:|
++-----------------+
 
 
 -> It is the automatic process of transforming a value from one data type to an other data type during the expression or assignment;
