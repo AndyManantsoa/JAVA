@@ -15,10 +15,10 @@
     - By litteral: can be created by the help of double quotes (String a = "abc")
     - By new keyword
 
-litteral:
-________
+By litteral:
+___________
 
-    -> In java, the string values are store inside a special memory space know as string constraint pool
+    -> In java, the string values are stored inside a special memory space know as string constraint pool
         it is inside the heap memory only.
 
         +--------+
@@ -32,7 +32,7 @@ ________
 
     -> In java, when we create a string with the help of litterals, in that case JVM checks verytime the value inside string 
         constraint pool if the value is already present inside the pool, in such case, new instance will reffer to the same object/value
-        in case of primitive data type. any variable created will be alocate in different memory.
+        in case of normal object, any variable created will be alocate in different memory.
         but in case of String, if we create two variables with the same values
 
     -> Advantage of litteral String:
@@ -40,3 +40,8 @@ ________
 
     -> Desadvantage of litteral String:
         The string is unmutable: unmodifiable : if you do so, the other declared variable will be modified too.
+
+By new Keyword:
+______________
+
+    -> In java, 
