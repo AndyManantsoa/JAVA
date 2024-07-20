@@ -47,25 +47,54 @@
 
     -> In java, the string will be created indepenantly in heap memory.
 
+
 -> in buit method of string:
-    _________________________
+___________________________
+
     - Char CharAt (index): used to return the char value at given index.
-            ex: String a= "abc" -> a.charAt(1); // b;
+            ex: String a= "abc"; -> a.charAt(1); // b;
 
     - int length(): used to count all character of the string.
-            ex: String a= "abc" -> a.length(); // 3
+            ex: String a= "abc"; -> a.length(); // 3
 
     - String subString(int beginingIndex );
-            ex: String a= "abc" -> a.subString(1); // bc
+            ex: String a= "abc"; -> a.subString(1); // bc
                                 -> a.subString(0,1); // a
 
     - boolean contains(char character): used to check if a character is present or not in bollean;
-            ex: String a= "abc" -> a.contains('a'); // true
+            ex: String a= "abc"; -> a.contains('a'); // true
                                 -> a.contains('d'); // false
 
     - boolean isEmpty(): used to check weither if a string is empty or not
-            ex: String a= "abc" -> a.isEmpty(); // false
-                String b= " " -> a.isEmpty(); // true
+            ex: String a= "abc"; -> a.isEmpty(); // false
+                String b= " "; -> a.isEmpty(); // true
     
     - String concat(String value):used to add tring at the end of a specified string.
-            ex: String a= "abc" -> a.concat("def"); // a = 'abcdef';
+            ex: String a= "abc"; -> a.concat("def"); // a = 'abcdef
+
+    - String replace(char old, char new): to replace old character;
+            ex: String a = "abc"; -> a.replace(a,d) // dbc
+
+    - String toUpperCase(): to transform string to uppercase
+
+    - String toLowerCase(): to transform string into toLowerCase
+
+    - String trim(): to remove blank space in a string ;
+        ex: String a =" abc "; -> a.trim();//a = 'abc';
+
+-> Comparison of string:
+________________________
+    - By equals() method: used to check the actual value of a given string;
+            ex: String a="abc";
+                String b="bcd";
+                a.equals(a);//false;
+
+    - By equal to (==) opperator: used to ckeck the reference object equality if same but not the value.
+            ex: String a="abc";
+                String b="bcd";
+                a==b //false; 
+
+    - By compareTo() method:
+            ex: String a="abc";
+                String b="bcd";
+                a.compare(b);//false;
