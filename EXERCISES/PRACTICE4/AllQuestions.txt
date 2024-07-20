@@ -1,0 +1,2 @@
+WAP to check if a given char is present in the string
+WAP to find all the vowels in the given string:

@@ -94,7 +94,13 @@ ________________________
                 String b="bcd";
                 a==b //false; 
 
-    - By compareTo() method:
+    - By compareTo() method: for sorting purpose. it compares the size;
             ex: String a="abc";
                 String b="bcd";
-                a.compare(b);//false;
+                a.compare(b);// 0
+
+                a>b -> + number
+                a<b -> - number
+                a=b -> 0
+
+
