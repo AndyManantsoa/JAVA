@@ -26,6 +26,7 @@ public class Car {
  
      public static void main(String[] args){
          Car car1 = new Car();
+         car1.display();
          Car car2 = new Car("Lamborghini", "Urus", 2019);
          car2.display();
      }
