@@ -15,8 +15,8 @@
     - By litteral: can be created by the help of double quotes (String a = "abc")
     - By new keyword
 
-By litteral:
-___________
+    By litteral:
+    ___________
 
     -> In java, the string values are stored inside a special memory space know as string constraint pool
         it is inside the heap memory only.
@@ -30,7 +30,7 @@ ___________
         +--------+
         Heap Memory
 
-    -> In java, when we create a string with the help of litterals, in that case JVM checks verytime the value inside string 
+    -> In java, when we create a string with the help of litterals, in that case JVM checks everytime the value inside string 
         constraint pool if the value is already present inside the pool, in such case, new instance will reffer to the same object/value
         in case of normal object, any variable created will be alocate in different memory.
         but in case of String, if we create two variables with the same values
@@ -41,7 +41,31 @@ ___________
     -> Desadvantage of litteral String:
         The string is unmutable: unmodifiable : if you do so, the other declared variable will be modified too.
 
-By new Keyword:
-______________
+    By new Keyword:
+    ______________
+    -> String a = new String("abc").
 
-    -> In java, 
+    -> In java, the string will be created indepenantly in heap memory.
+
+-> in buit method of string:
+    _________________________
+    - Char CharAt (index): used to return the char value at given index.
+            ex: String a= "abc" -> a.charAt(1); // b;
+
+    - int length(): used to count all character of the string.
+            ex: String a= "abc" -> a.length(); // 3
+
+    - String subString(int beginingIndex );
+            ex: String a= "abc" -> a.subString(1); // bc
+                                -> a.subString(0,1); // a
+
+    - boolean contains(char character): used to check if a character is present or not in bollean;
+            ex: String a= "abc" -> a.contains('a'); // true
+                                -> a.contains('d'); // false
+
+    - boolean isEmpty(): used to check weither if a string is empty or not
+            ex: String a= "abc" -> a.isEmpty(); // false
+                String b= " " -> a.isEmpty(); // true
+    
+    - String concat(String value):used to add tring at the end of a specified string.
+            ex: String a= "abc" -> a.concat("def"); // a = 'abcdef';
