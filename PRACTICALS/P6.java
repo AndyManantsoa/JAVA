@@ -34,5 +34,7 @@ public class P6 {
         System.out.println("\n");
 
         System.out.println("Recursive Fibonacci number: " + fibo.fibo(n));
+        sc.close();
+
     }
 }

@@ -25,6 +25,7 @@ public class ArrayExo{
 
         ArrayExo arrayExo = new ArrayExo();
         arrayExo.filterOdd(arr);
+        sc.close();
 
     }
 }

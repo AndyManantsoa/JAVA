@@ -50,6 +50,9 @@ public class Bank {
         System.out.println("Choose your account type: \n"+
                             "1. Current \n"+
                             "2. Saving \n");
+        
+        sc.close();
+
 
         int choice=1;
         while (true) {
@@ -110,6 +113,7 @@ public class Bank {
         Scanner sc = new Scanner(System.in);
         int choice;
         Bank bank = new Bank("", "", 0, 0, "",0,"");
+
         while(true){
             System.out.println("Welcome to MANAMIRA bank\n"+
                 "Enter your choice: \t"+
@@ -139,9 +143,11 @@ public class Bank {
                 default:
                     System.out.println("Invalid choice. Please choose again.");
             }
-
+            
+            sc.close();
         }
-        }
+        
+    }
 
         
     }

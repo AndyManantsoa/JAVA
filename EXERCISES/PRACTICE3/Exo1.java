@@ -24,6 +24,8 @@ public class Exo1{
         float average = total/year;
 
         System.out.println("The average is " + average);
+        s.close();
+
 
     }
     

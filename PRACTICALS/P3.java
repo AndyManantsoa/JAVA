@@ -143,6 +143,8 @@
              default:
                  System.out.println("Error in taking the right operation");;
          }
+         s.close();
+
      }
  }
  

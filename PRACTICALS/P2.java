@@ -62,7 +62,8 @@
     Not(a,b);
     Left(a,b);
     Right(a,b);
-               
+    s.close();
+ 
  }
 }
  

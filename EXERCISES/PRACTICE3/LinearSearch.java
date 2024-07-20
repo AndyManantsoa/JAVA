@@ -19,6 +19,8 @@ public static void main(String[] args){
         System.out.println("Enter the element to be searched: ");
         int x= sc.nextInt();
         linearSearch(arr,x);
+        sc.close();
+
     }
 
 }      

@@ -25,6 +25,7 @@ public class Exo3 {
         for (int i =b; i >=a; i--) {
             System.out.print(i + " ");
         }
-        
+        scanner.close();
+
     }
 }

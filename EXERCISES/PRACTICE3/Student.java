@@ -34,5 +34,7 @@ public class Student {
 
         Student student = new Student(name, ID, age, division);
         student.display();
+        scanner.close();
+
     }
 }

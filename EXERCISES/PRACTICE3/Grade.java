@@ -5,14 +5,15 @@ public class Grade {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of students: ");
-        int numStudents = scanner.nextInt();
-
             int marks = scanner.nextInt();
 
             char grade = calculateGrade(marks);
 
             System.out.println("Grade of student: " + grade);
+            scanner.close();
+
         }
+
 
     public static char calculateGrade(int marks) {
         if (marks >= 90 && marks <= 100) {
@@ -26,6 +27,6 @@ public class Grade {
         } else {
             return 'F';
         }
-        
+
     }
 } 

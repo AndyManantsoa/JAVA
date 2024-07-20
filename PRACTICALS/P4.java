@@ -33,5 +33,7 @@ public class P4{
         int salary = sc.nextInt();
         P4 employee = new P4(name, age, salary);
         employee.display();
+        sc.close();
+
     }
 }

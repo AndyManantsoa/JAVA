@@ -33,5 +33,6 @@ public class Book {
 
         Book book2 = new Book("Rich Dad Poor Dad", "Robert Kiyosaki", 240);
         book2.printBook();
+        scanner.close();
     }
 }

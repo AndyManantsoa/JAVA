@@ -30,6 +30,8 @@ public class Calculator{
         Calculator calc = new Calculator();
         calc.add(a,b);
         calc.sub(a,b);
+        sc.close();
+
     }
 
 }

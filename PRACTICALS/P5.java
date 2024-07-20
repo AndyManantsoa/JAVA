@@ -35,7 +35,9 @@ public class P5{
 
         System.out.println("\n Your equation is: " + a +"x^2 + "+ b +"x + " + c + "= 0");
         P5 p5 = new P5();
-        p5.findDiscriminant(a,b,c);        
+        p5.findDiscriminant(a,b,c);       
+        sc.close();
+ 
 
     }
 }
