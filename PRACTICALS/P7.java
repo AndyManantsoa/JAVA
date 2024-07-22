@@ -26,9 +26,7 @@ public class P7 {
             if(isPrime){
                 System.out.print(i+" ");
             }
-        }
-            
-        
+        }      
     
     }
 }

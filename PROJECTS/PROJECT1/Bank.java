@@ -70,6 +70,8 @@ public class Bank {
         Account newUser = new Account(name, email, phone, balance, accountType, accountNumber, ifscCode);
         accounts[accountCount++] = newUser;
         System.out.println("Account created successfully!");
+        sc.close();
+
     }
 
     public void deleteAccount(int number) {
