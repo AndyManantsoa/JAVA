@@ -1,0 +1,11 @@
+OBEJECT ORIENTED PROGRAMING:
+
+    step by step : procedural oriented approach.(in case of C)
+    -> There was lagging: not flexible
+                          no proper arrangement
+                          time consuming
+
+-> So, Object Oriented Programming was introduced:
+    it is a rule to follow when we build application
+    
+
