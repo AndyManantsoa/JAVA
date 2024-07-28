@@ -1,0 +1,57 @@
+OBJECT ORIENTED PROGRAMING:
+
+    step by step : procedural oriented approach.(in case of C)
+    -> There was lagging: not flexible
+                          no proper arrangement
+                          time consuming
+
+-> So, Object Oriented Programming was introduced:
+    it is a rule to follow when we build scalable and flexible application.
+
+
+OOP: is an approach by which we can design a program or application trully based on object and class
+
+OPPS: (appoach) deals with real world entity
+
+Advantages of OOP:
+_________________
+
+- flexibility: it is more flexible more than the procedural approach.
+- high security: it is highly secured.
+- reusability: it follows the dry principal (ie do not repeat)
+- scalability: we can do versioning of the programs with the help of modules and structure given by the oops
+
+
+CONCEPTS OF OOPs:
+___________________
+
+1. CLASSES:
+    -> class is a blueprint or template or conctainer or a design pattern which is used to store the properties(instance variable) 
+    and behaviors (function) of the resective object
+    -> Class does not consum any space in the memory.
+    * keyword: class ClassName(){
+    }
+
+2. OBJECT:
+ Real world :
+    -> Entity existing in the real world which has a physical existance and is surrounding us.
+    -> Every objects will have properties and behaviors.
+
+ In OOPS :
+    -> object is an instance of a class
+    * keyword: ClassName objectName = new ClassName();
+
+3. INHERITANCE:
+    -> inheritance is a mechanism by which one class can inherit the properties of another class.
+    -> it is a process of creating a new class from an existing class.
+    -> it is a way of creating a new class from an existing class.
+
+4. ENCAPSULATION:
+    -> encapsulation is a mechanism by which we can hide the internal details of an object from the
+    outside world and only expose the necessary information to the outside world.   
+
+
+
+5. POLYMORPHISM:
+
+6. ABSTRACTION1;

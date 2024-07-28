@@ -84,6 +84,7 @@ ___________________________
 
 -> Comparison of string:
 ________________________
+
     - By equals() method: used to check the actual value of a given string;
             ex: String a="abc";
                 String b="bcd";
