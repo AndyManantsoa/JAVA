@@ -32,7 +32,7 @@ BASIC SYNTAX:
     here public is access modifier
     class is keyword
     class is a user define data type:
-    Class first latter should be capital
+    The letter of a ClassNane should be capital
     Java follows the camel case
     ex:
         suppose there is a class named as
