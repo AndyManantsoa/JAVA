@@ -1,6 +1,6 @@
 java is object oriented programing language
 
-BASIC SYNTAX:
+BASIC SYNTAX: k
 ------------
 
     public class ClassName
