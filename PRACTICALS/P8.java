@@ -1,3 +1,5 @@
+//8. Write a Java program to multiply two given matrices
+
 import java.util.Scanner;
 
 public class P8 {

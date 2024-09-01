@@ -18,13 +18,13 @@ public class P6 {
 
     public void fiboNonRec(int n) {
         int x = 0, y = 1, sum = 0;
+
         
-        System.out.print("Non Recursive: 0 1 ");
+        System.out.print("Non Recursive ");
         for (int i = 2; i <= n; i++) {
             sum = x + y;
             x = y;
             y = sum;
-            System.out.print(sum +" ");
         }
         System.out.println("\nThe nth is: "+y);
 
@@ -39,7 +39,7 @@ public class P6 {
         fibo.fiboNonRec(n);
         System.out.println("\n");
 
-        System.out.println("Recursive Fibonacci number: " + fibo.fibo(n));
+        System.out.println("Recursive Fibonacci: " + fibo.fibo(n));
         sc.close();
         
     }
