@@ -2,6 +2,9 @@
 package P11;
 
 public abstract class Animal {
+    public void display(){
+        System.out.println("Hello");
+    }
     public abstract void sound();
 }
 
