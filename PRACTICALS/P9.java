@@ -16,9 +16,8 @@ public class P9 {
     }
 }
 
-
-
-/*public class P9a {
+/*
+public class P9 {
     public static void main(String[] args) {
         String[] arr = new String[3];
         arr = new String[] {"Mom","Dad","Me"};
@@ -43,4 +42,5 @@ public class P9 {
         }
 
     }
-}*/
+}
+*/
