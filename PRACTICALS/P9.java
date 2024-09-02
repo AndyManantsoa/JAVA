@@ -13,9 +13,7 @@ public class P9 {
         names.add("Charlie");
 
         System.out.println("Unsorted list: " + names);
-
         Collections.sort(names);
-
         System.out.println("Sorted list: " + names);
     }
 }
