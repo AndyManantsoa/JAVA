@@ -9,8 +9,8 @@ public class Main {
 
             do {
                 System.out.println("""
-                        1) Start new game
-                        2) Exit
+                     1) Start new game
+                     2) Exit
                 """);
 
                 x = sc.nextInt();

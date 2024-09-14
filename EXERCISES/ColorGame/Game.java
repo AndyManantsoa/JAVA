@@ -69,7 +69,7 @@ public class Game {
             user.displayData();
             break;
         } else {
-            System.out.println("You lose");
+            System.out.println("You lose, the correct color is "+randomColor);
             user.loss++;
             user.attempt--;
             user.displayData();

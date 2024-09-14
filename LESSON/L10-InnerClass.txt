@@ -1,0 +1,105 @@
+InnerClass:
+_____________
+
+-> A class which we define inside of another class is called innerclass;
+
+-> Syntax:
+    class A{
+        class B{
+
+        }
+    }
+
+-> Types of innerclass: there are 3 types of inner class
+    - Nested innerclass: normal inner class:
+        class A{
+           class B{
+
+            }
+        }
+
+    - Method local inner class: define a class inside the method of outer class
+        class A{
+            void getData();
+            class B{
+                void display();
+            }
+        }
+
+    - Static nested innerclass: same as nested but static
+        class A{
+            static class B (){
+
+            }
+        }
+
+
+ex:
+class A{
+    void display(){
+        sout("Hello")
+    }
+    class B{
+        void getData(){
+            sout("data");
+        }
+    }
+
+}
+
+class Main{
+    main(){
+        A a = new A();
+        A.B b = a.new B();
+        // or : A.B b = new A().new B();
+    }
+}
+
+ex:
+
+class Outer{
+    public void outerDisplay(){
+        sout("Outer");
+        class Inner{
+            public void innerDisplay(){
+                sout("inner");
+            }
+        }
+        Inner i = new Inner();
+        i.InnerDisplay();
+    }
+}
+class Main{
+    main(){
+        Outer o = new outer();
+        o.outerDisplay();
+    }
+}
+
+//op :  outer
+        inner
+
+
+ex:
+
+class Outer{
+    public void outerDisplay(){
+        sout("Outer");
+    }
+    static class Inner{
+            public void innerDisplay(){
+                sout("inner");
+            }
+        }
+}
+
+class Main{
+    main(){
+        Outer o = new outer();
+        o.outerDisplay();
+        outer.Inner.innerDisplay();
+    }
+}
+
+//op :  outer
+        inner
