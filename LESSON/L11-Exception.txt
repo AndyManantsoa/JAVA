@@ -24,11 +24,15 @@ Advantages of Exception handling:
 -> Throwable class inherits mainly 2 childs exeption class known as exception and error
 -> Exception class is inherited by checheck and unchecked exception's classes
 
-1) Checked exception / compile time exception:
+1) Checked exception / compiletime exception:
     Exception which occurs at the compilation time of program.
 ex: IO exception
     SQL exception
     ClassNotFound Exception
 
-2) Unchecked exception:
+2) Unchecked exception / runtime exception:
     Exception which occurs bat the run time of the program
+ex: Arithmetic exception
+    NullPointer exception
+    NumberFormat exception
+    IndexOutOfBound exception
