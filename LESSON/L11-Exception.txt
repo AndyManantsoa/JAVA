@@ -1,0 +1,34 @@
+___________________
+
+Exception handling:
+___________________
+
+Definitions:
+
+-> Exception is an unwanted event which occurs at the run time of the program and break the normal flow of execution
+-> Exception handling is a mechanism to handle the runtime errors throuh custom message
+
+Advantages of Exception handling:
+    -> it maintains the normal flow of program
+    -> Parent class of all exception are all throwable class
+
+
+                                   throwable
+                              ___________________
+                              |                  |
+                        Exception              error
+                        _________              ______
+                    * checked exception          - Stackoverflow error
+                    * Unchecked exeption         - error
+
+-> Throwable class inherits mainly 2 childs exeption class known as exception and error
+-> Exception class is inherited by checheck and unchecked exception's classes
+
+1) Checked exception / compile time exception:
+    Exception which occurs at the compilation time of program.
+ex: IO exception
+    SQL exception
+    ClassNotFound Exception
+
+2) Unchecked exception:
+    Exception which occurs bat the run time of the program
