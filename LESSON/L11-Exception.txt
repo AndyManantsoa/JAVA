@@ -26,13 +26,29 @@ Advantages of Exception handling:
 
 1) Checked exception / compiletime exception:
     Exception which occurs at the compilation time of program.
-ex: IO exception
+
+ex: IO exception (while dealing with file)
     SQL exception
     ClassNotFound Exception
 
 2) Unchecked exception / runtime exception:
     Exception which occurs bat the run time of the program
+
 ex: Arithmetic exception
     NullPointer exception
     NumberFormat exception
-    IndexOutOfBound exception
+    IndexOutOfBound exception:
+        - ArrayOutOfBound exception
+        - StringOutOfBound exeption
+
+JAVA exception keywords:
+    - try keyword is used to specify a block where the exception can occure 
+    - catch keyword is a block used to handle the exception which occurs in the try block
+    - finally is block which is used to execute important code of the program
+              it execute weither the exeption is handled or not
+
+    ex: try{
+
+        } catch(Exception className){
+
+        } 
