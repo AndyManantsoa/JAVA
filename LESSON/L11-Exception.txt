@@ -14,9 +14,9 @@ Advantages of Exception handling:
 
 
                                    throwable
-                              ___________________
+                              __________|_________
                               |                  |
-                        Exception              error
+                         Exception              error
                         _________              ______
                     * checked exception          - Stackoverflow error
                     * Unchecked exeption         - error
@@ -42,10 +42,11 @@ ex: Arithmetic exception
         - StringOutOfBound exeption
 
 JAVA exception keywords:
+
     - try keyword is used to specify a block where the exception can occure 
     - catch keyword is a block used to handle the exception which occurs in the try block
     - finally is block which is used to execute important code of the program
-              it execute weither the exeption is handled or not
+              it executes weither the exeption is handled or not
 
     ex: try{
 
