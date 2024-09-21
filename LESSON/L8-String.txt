@@ -109,5 +109,24 @@ ________________________
 _____________________
 
     It is an inbuilt class which is used to breake the string into tokens
+
     It is available in the util package of java library 
-    It has 3 parametrized constructor
+
+    It has 3 parametrized constructors:
+    -----------------------------------
+
+    -> StringTokinizer(String str): used to create string tokionizer with specified string
+        str: the string to be tokenized
+
+    -> StringTokinizer(String str, String delim): creates string tokinizer with specified string and delimiter
+        delim: the delimiter string
+
+    -> StringTokenizer(String str, String delim, boolean returnDelims)
+        returnDelims: a boolean indicating whether to return the delimiters as tokens
+
+    Methods of string tokinizer class:
+    ----------------------------------
+    - boolean hasMoreTokens()
+
+
+    
