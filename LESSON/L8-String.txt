@@ -126,7 +126,9 @@ _____________________
 
     Methods of string tokinizer class:
     ----------------------------------
-    - boolean hasMoreTokens()
+    - boolean hasMoreTokens(): it checks if there is more tokens available
+
+    - String nextToken(): 
 
 
     
