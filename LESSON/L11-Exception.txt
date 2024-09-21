@@ -32,7 +32,7 @@ ex: IO exception (while dealing with file)
     ClassNotFound Exception
 
 2) Unchecked exception / runtime exception:
-    Exception which occurs bat the run time of the program
+    Exception which occurs at the run time of the program
 
 ex: Arithmetic exception
     NullPointer exception
