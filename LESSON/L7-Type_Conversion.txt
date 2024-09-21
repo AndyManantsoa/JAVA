@@ -21,3 +21,5 @@
 ----------------Narrowing------------------------>
 Double->long->float->int->String->char->byte->bit;
 <---------------Widening--------------------------
+
+
