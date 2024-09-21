@@ -110,7 +110,7 @@ _____________________
 
     It is an inbuilt class which is used to breake the string into tokens
 
-    It is available in the util package of java library 
+    It is available in the util package of java library (import java.util.StringTokinizer)
 
     It has 3 parametrized constructors:
     -----------------------------------
@@ -128,7 +128,14 @@ _____________________
     ----------------------------------
     - boolean hasMoreTokens(): it checks if there is more tokens available
 
-    - String nextToken(): 
-
-
-    
+    - String nextToken(): it returns the next token from the string tokenizer object
+        ex: import java.util.StringTokenizer;
+            public class Main {
+                public static void main(String[] args) {
+                    String s ="I am a student";
+                            StringTokenizer s1 = new StringTokenizer(s);
+                            while(s1.hasMoreTokens()){
+                                System.out.println(s1.nextToken());
+                            }  
+                }
+            }
