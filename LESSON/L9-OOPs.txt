@@ -69,5 +69,21 @@ ___________________
         - Improved code reuse: Polymorphism enables code reuse by allowing subclasses to inherit behavior from their superclasses and override it as needed.
         - Easier maintenance: Polymorphism makes it easier to modify code by allowing changes to be made at the superclass level, which can then be inherited by subclasses.
 
-6. ABSTRACTION1;
+6. ABSTRACTION1:
+Definition: Abstraction is the concept of showing only the necessary information to the outside world while hiding the internal details.
+
+Types of Abstraction:
+
+Abstract Classes: A class that cannot be instantiated on its own and is intended to be inherited by other classes.
+Interfaces: A abstract class that contains only abstract methods and constants.
+Key Concepts:
+
+Abstract Methods: Methods that are declared without an implementation.
+Abstract Classes: Classes that contain abstract methods and cannot be instantiated on their own.
+Interfaces: Abstract classes that contain only abstract methods and constants.
+Benefits:
+
+Improved modularity: Abstraction helps to break down complex systems into smaller, independent modules.
+Increased flexibility: Abstraction enables changes to be made at the abstract level, which can then be inherited by subclasses.
+Easier maintenance: Abstraction makes it easier to modify code by allowing changes to be made at the abstract level.
 
