@@ -1,0 +1,40 @@
++----------------------+
+| COLLECTION FRAMEWORK |
++----------------------+
+
+-> The Collection Framework in Java is a set of classes and interfaces that provide a way to store 
+    and manipulate collections of objects. It provides a standardized way of representing and working 
+    with collections, making it easier to write robust and efficient code.
+
+-> Key Interfaces and Classes:
+    1. Collection Interface
+        The Collection interface is the root interface of the Collection Framework.
+        It defines the basic operations that can be performed on a collection, such as add, remove, contains, and size.
+
+    2. List Interface
+        The List interface extends the Collection interface.
+        It provides additional methods for working with ordered collections, such as get, set, and indexOf.
+
+    3. Set Interface
+        The Set interface extends the Collection interface.
+        It provides methods for working with unordered collections, such as add and contains.
+
+    4. Map Interface
+        The Map interface is not a subclass of Collection, but it is often used in conjunction with collections.
+        It provides methods for working with key-value pairs, such as put, get, and containsKey.
+
+    5. ArrayList Class
+        The ArrayList class is a popular implementation of the List interface.
+        It provides a resizable array-based implementation of a list.
+
+    6. LinkedList Class
+        The LinkedList class is another implementation of the List interface.
+        It provides a linked-list-based implementation of a list.
+
+    7. HashSet Class
+        The HashSet class is an implementation of the Set interface.
+        It provides a hash-based implementation of a set.
+        
+    8. HashMap Class
+        The HashMap class is an implementation of the Map interface.
+        It provides a hash-based implementation of a map.

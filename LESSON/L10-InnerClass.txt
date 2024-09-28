@@ -1,5 +1,6 @@
-InnerClass:
-_____________
++--------------+
+|  InnerClass: |
++--------------+
 
 -> A class which we define inside of another class is called innerclass;
 
