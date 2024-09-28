@@ -17,6 +17,7 @@
 
     By litteral:
     ___________
+    -> String s ="abc";
 
     -> In java, the string values are stored inside a special memory space know as string constraint pool
         it is inside the heap memory only.

@@ -36,3 +36,15 @@ In summary:
         JVM is like a car engine.
         JRE is like a car with an engine, but without the tools to build or repair it.
         JDK is like a car with an engine, plus a garage with tools to build, repair, and customize the car.
+
+
+PACKAGE ANd LIBRARY:
+___________________
+
+A package is a way to organize related classes and interfaces in a project
+A library is a collection of reusable code that provides additional functionality to an application.
+
+Purpose: A package is used to organize related classes and interfaces, while a library is a collection of reusable code that provides additional functionality to an application.
+Scope: A package is a namespace that is specific to a project, while a library is a separate entity that can be used by multiple projects.
+Distribution: A package is typically distributed as part of a project's source code, while a library is distributed as a separate JAR file.
+Reusability: A package is not intended to be reused across multiple projects, while a library is designed to be reused across multiple projects.
