@@ -1,12 +1,13 @@
-OPERATOR:
---------
++------------+
+| OPERATORS: |
++------------+
 
     This is used to perform the operation between two operands
     ex:
         a+b--> addition operator +
         b/v->  division operator /
 
-    Types lo Operator:
+    Types of Operator:
         1-> Arithmetic Operator:
             It is used to perform the Mathematical Operations
             +, - , / , * , %, ++,--

@@ -29,13 +29,14 @@ SCANNER CLASS:
                 for string type:    String name=abc.next()/ abc.nextLine();
                 for boolean type:   boolean value=scanner.nextBoolean();
 
-BufferedReader Class:
---------------------
-    -> The BufferedReader class is another way to read input from the user. 
+Console Class:
+--------------
+
+    -> The console class is another way to read input from the user. 
         It provides a more efficient way to read large amounts of text.
 
     -> Steps to use BufferedReader class:
-        1-> import the bufferReader:
+        1-> import the console:
             import java.io.Console
 
         2-> Create an object:
