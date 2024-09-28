@@ -59,13 +59,6 @@ ___________________
         - Private: Accessible only within the same class.
         - Protected: Accessible within the same class and its subclasses.
         - Default (no modifier): Accessible within the same package.
-    
-    ->Benefits:
-
-        Improved Code Organization: Encapsulation helps to organize code in a more structured and modular way.
-Increased Security: Encapsulation helps to protect the data from external interference and misuse.
-Easier Maintenance: Encapsulation makes it easier to modify code by allowing changes to be made at the class level.
-
 
 5. POLYMORPHISM:
     ->Polymorphism is the ability of an object to take on multiple forms, depending on the context in which it is used.
