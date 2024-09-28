@@ -1,4 +1,6 @@
-BASIC SYNTAX
+
+
+BASIC SINTAX
 ____________
 
     public class ClassName
@@ -24,22 +26,19 @@ ____________
           How you will save the above class??
           Hello.java
 
-
-
-
-    here public is access modifier
+    here public is an access modifier
     class is keyword
-    class is a user define data type:
+    class is a user-define data type:
     The letter of a ClassNane should be capital
     Java follows the camel case
+
     ex:
         suppose there is a class named as
-        print book
-
-        Printbook----> class PrintBook
+        print book: Printbook----> class PrintBook
 
 
     Steps for running a java program on notepad:
+
     1> create a java file write the code
     2> save the java file
     3> Go the file location and open the cmd:
@@ -63,6 +62,7 @@ VARIABLES:
 
     It is a container/memory location name/reference which is used to store the data
     into the memory
+    
     syntax:
         dataType variableName=variableValue;
         ex:

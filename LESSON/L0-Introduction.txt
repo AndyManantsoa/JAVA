@@ -67,8 +67,6 @@ JDK (Java Development Kit):
     
     
 In summary:
-
-
     JVM: The virtual machine that runs Java bytecode.
     JRE: A package that includes the JVM and other essential components to run Java programs.
     JDK: A package that includes the JRE, as well as development tools and libraries to develop, compile, and run Java programs.
