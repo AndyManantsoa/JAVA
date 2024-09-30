@@ -2,8 +2,6 @@
 
 public class P15 {
     private int x = 10;
-
-    // Inner class
     class InnerClass {
         private int y = 20;
 
