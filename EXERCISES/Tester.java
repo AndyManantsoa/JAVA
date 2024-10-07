@@ -2,7 +2,7 @@ package EXERCISES;
 
 import java.util.*;
 
-public class Main {
+public class Tester {
     public static boolean isEven(int a){
         return a % 2 == 0;
     }
