@@ -59,7 +59,8 @@ ___________________
         - Hierarchical Inheritance: A superclass has multiple subclasses.
 
 4. ENCAPSULATION:
-    -> Encapsulation is the concept of bundling data and its associated methods that operate on that data within a single unit, called a class or object.
+    -> Encapsulation is the concept of bundling data and its associated methods that operate on that data within a single unit,
+     called a class or object.
     
     -> Key Concepts:
         - Data Hiding: The idea of hiding the internal implementation details of an object from the outside world.

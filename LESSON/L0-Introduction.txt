@@ -8,17 +8,21 @@ It was first released in 1995 and has since become one of the most popular progr
 Key Features of Java: 
 _____________________
     1. Platform Independence:
-        - Java is known for its "write once, run anywhere" philosophy.
+        - Java is known for its "write once, run anywhere"
         - Java code can run on any platform that has a Java Virtual Machine (JVM) installed.
+
     2. Object-Oriented Programming
         - Java is an object-oriented language that supports encapsulation, inheritance, and polymorphism.
         - It allows developers to create reusable code and modular programs.
+
     3. Simple and Familiar Syntax
         - Java's syntax is based on C++ and is easy to learn for developers familiar with C++.
         - It has a relatively simple syntax and is less verbose than many other languages.
+
     4. Robust Security
         - Java has built-in security features, such as memory management and data encryption.
         - It provides a secure environment for developing and running applications.
+        
     5. Large Community and Resources
         - Java has a massive community of developers and a vast ecosystem of libraries and frameworks.
         - It has extensive documentation and resources available online.
