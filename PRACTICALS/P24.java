@@ -1,22 +1,7 @@
-//Write a program to create dynamic array using ArrayList class and print the contents od the array object
-
-import java.util.ArrayList;
+//Write a java program that implements a multi-thread application that has three threads. First thread
+//generates random integer every 1 second and if the value is even, second thread computes the square of the
+//number and prints. If the value is odd, the third thread will print the value of cube of the number.
 
 public class P24 {
-    public static void main(String[] args) {
-        ArrayList<String> dynamicArray = new ArrayList<>();
-
-        dynamicArray.add("Apple");
-        dynamicArray.add("Banana");
-        dynamicArray.add("Cherry");
-        dynamicArray.add("Date");
-
-        System.out.println("Dynamic Array Contents:");
-        for (String element : dynamicArray) {
-            System.out.println(element);
-        }
-
-        System.out.println("\nUsing toString() method:");
-        System.out.println(dynamicArray);
-    }
+    
 }
