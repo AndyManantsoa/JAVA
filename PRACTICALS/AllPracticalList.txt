@@ -49,6 +49,10 @@
 
 23. Write a java program for producer and consumer problem using Threads.
 
-24. Write a program to create dynamic array using ArrayList class and print the contents od the array object
+24. Write a java program that implements a multi-thread application that has three threads. First thread
+    generates random integer every 1 second and if the value is even, second thread computes the square of the
+    number and prints. If the value is odd, the third thread will print the value of cube of the number.  
 
-25. Write a program to impliment add, search and remove operation on ArrayList object.
+25. Write a program to create dynamic array using ArrayList class and print the contents od the array object
+
+26. Write a program to impliment add, search and remove operation on ArrayList object.
