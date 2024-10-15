@@ -37,7 +37,7 @@
         but in case of String, if we create two variables with the same values
 
     -> Advantage of litteral String:
-        it in hance the memory management for efficient process;
+        it enhance the memory management for efficient process;
 
     -> Desadvantage of litteral String:
         The string is unmutable: unmodifiable : if you do so, the other declared variable will be modified too.
