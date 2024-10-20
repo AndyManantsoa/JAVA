@@ -4,11 +4,8 @@ import java.util.Scanner;
 public class P7 {
 
     public boolean prime(int num){
-        for(int j =2;j<num;j++){
-            if(num%j==0){
-                return false;
-            }
-        }
+        if(num%j==0){
+            return false;
         return true;
     }
     public static void main(String[] args) {
@@ -29,4 +26,4 @@ public class P7 {
         }      
     
     }
-}
+    }}

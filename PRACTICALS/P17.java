@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class P17 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a text:");
         String text = scanner.nextLine();
@@ -16,6 +17,7 @@ public class P17 {
         System.out.println("Characters: " + charCount);
         System.out.println("Lines: " + lineCount);
         System.out.println("Words: " + wordCount);
+        
     }
 
     public static int countCharacters(String text) {
