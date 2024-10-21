@@ -17,7 +17,6 @@ public class P17 {
         System.out.println("Characters: " + charCount);
         System.out.println("Lines: " + lineCount);
         System.out.println("Words: " + wordCount);
-        
     }
 
     public static int countCharacters(String text) {

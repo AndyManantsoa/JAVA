@@ -109,9 +109,9 @@ ________________________
 -> String tokenizer:
 _____________________
 
-    It is an inbuilt class which is used to breake the string into tokens
+    It is an inbuilt class which is used to break the string into tokens
 
-    It is available in the util package of java library (import java.util.StringTokinizer)
+    It is available in the util package of java library (import java.util.StringTokenizer)
 
     It has 3 parametrized constructors:
     -----------------------------------
