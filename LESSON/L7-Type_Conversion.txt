@@ -17,9 +17,6 @@
         ex: double to float, long to int, int to byte, short to byte
             -> float a = 5;int b = (int)a;
 
-
 ----------------Narrowing------------------------>
 Double->long->float->int->String->char->byte->bit;
 <---------------Widening--------------------------
-
-
