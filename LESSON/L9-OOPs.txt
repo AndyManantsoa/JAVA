@@ -52,11 +52,22 @@ ___________________
         - Inheritance: The process of creating a new class based on an existing class.
         - Extends: The keyword used to indicate that a subclass is inheriting from a superclass.
 
-    ->ypes of Inheritance:
+    ->Types of Inheritance:
         - Single Inheritance: A subclass inherits from a single superclass.
-        - Multiple Inheritance: A subclass inherits from multiple superclasses (not directly supported in Java, but can be achieved through interfaces).
+        ex: class A {}
+            class B extends A {}
+
         - Multilevel Inheritance: A subclass inherits from a superclass that itself inherits from another superclass.
+        ex: class A {}
+            class B extends A {}
+            class C extends B {}
+
         - Hierarchical Inheritance: A superclass has multiple subclasses.
+        ex: class A {}
+            class B extends A {}
+            class C extends A {}
+
+
 
 4. ENCAPSULATION:
     -> Encapsulation is the concept of bundling data and its associated methods that operate on that data within a single unit,
@@ -78,8 +89,23 @@ ___________________
 
     ->Types of Polymorphism:
         - Method Overloading: Multiple methods with the same name but different parameters.
-        - Method Overriding: A subclass provides a specific implementation for a method that is already 
-            defined in its superclass.
+                            ex: void example(int a);
+                                void example(int a, int b);
+                                
+        - Method Overriding: it occurs when a subclass provides a specific implementation of a method that is already 
+                            defined in its superclass.
+                            The method in the subclass must have the same name, return type, and parameters.
+                            ex: class Animal {
+                                    void sound() {
+                                        System.out.println("Animal makes a sound.");
+                                    }
+                                }
+                                class Dog extends Animal {
+                                    @Override
+                                    void sound() {
+                                        System.out.println("Dog barks.");
+                                    }
+                                }
             
     -> Key Concepts:
         - Method Signature: The name, return type, and parameter list of a method.
