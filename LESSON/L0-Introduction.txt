@@ -27,6 +27,8 @@ _____________________
         - Java has a massive community of developers and a vast ecosystem of libraries and frameworks.
         - It has extensive documentation and resources available online.
 
+    6. Multithreading
+
 History of Java :
 _________________
     Java was first released in 1995 by Sun Microsystems.
@@ -44,7 +46,7 @@ _______________
     3. Java ME (Micro Edition)
         - Java ME is a lightweight edition of Java, designed for developing applications on mobile devices and embedded systems.
 
-JVM & JRE & JVM:
+JVM & JRE & JDK:
 ________________
 
 JVM (Java Virtual Machine):
