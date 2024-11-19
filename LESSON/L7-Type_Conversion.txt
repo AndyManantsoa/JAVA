@@ -11,7 +11,7 @@
         ex: int to long, float to double, short to int
             -> int a = 5;double b = a;
 
-    2/ Narrowing conersion/ explicit typecasing: 
+    2/ Narrowing conversion/ explicit typecasing: 
         in this type of type casting, the process will be manual where we convert large data type into small data type.
         we do Narrowing casting with the help of cast operator.
         ex: double to float, long to int, int to byte, short to byte

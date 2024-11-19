@@ -21,9 +21,10 @@
 
     - Method local inner class: define a class inside the method of outer class
         class A{
-            void getData();
-            class B{
-                void display();
+            void getData(){
+                class B{
+                    void display();
+                }
             }
         }
 
